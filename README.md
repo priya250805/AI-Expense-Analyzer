@@ -15,16 +15,16 @@ An AI-powered personal finance dashboard that analyzes bank statement CSV files,
 ## 📸 Screenshots
 
 ### Upload Page
-![Upload Page](images/upload-page.png)
+![Upload Page](images/Upload bank statement.png)
 
 ### Expense Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Expense dashboard.png)
 
 ### Expense Chart
-![Expense Chart](images/expense-chart.png)
+![Expense Chart](images/Category wise spending.png)
 
 ### AI Insights
-![AI Insights](images/ai-insights.png)
+![AI Insights](images/AI insights.png)
 
 ---
 
