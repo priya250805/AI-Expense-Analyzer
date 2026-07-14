@@ -1,47 +1,37 @@
 # 💰 AI Expense Analyzer
 
-An AI-powered personal finance dashboard that analyzes bank statement CSV files, categorizes expenses, detects subscriptions, predicts next month's spending, and generates personalized financial insights.
+An AI-powered personal finance dashboard that analyzes bank statement CSV files to help users understand their spending habits. The application automatically categorizes expenses, detects recurring subscriptions, predicts next month's spending, and generates meaningful financial insights through an interactive dashboard.
+
+Designed with a clean React interface and powered by a FastAPI backend, the project demonstrates data analysis, visualization, and predictive analytics in a real-world finance use case.
 
 ---
 
-## 🚀 Live Demo
+# 🌐 Live Demo
 
-**Frontend:** *(Add Vercel URL after deployment)*
+### Frontend
+https://ai-expense-analyzer-mu.vercel.app/
 
-**Backend API:** *(Add Render URL after deployment)*
-
----
-
-## 📸 Screenshots
-
-### Upload Page
-![Upload Page](images/Upload bank statement.png)
-
-### Expense Dashboard
-![Dashboard](images/Expense dashboard.png)
-
-### Expense Chart
-![Expense Chart](images/Category wise spending.png)
-
-### AI Insights
-![AI Insights](images/AI insights.png)
+### Backend API
+https://ai-expense-analyzer-yhwp.onrender.com
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 📂 Upload bank statement CSV files
-- 📊 Interactive expense dashboard
-- 🏷 Automatic expense categorization
-- 💳 Subscription detection
-- 📈 Category-wise spending analysis
-- 🤖 AI-generated financial insights
-- 🔮 Next month expense prediction
-- 💰 Total, average, and highest expense analysis
+-  Upload bank statement CSV files
+-  Interactive expense dashboard
+-  Automatic expense categorization
+-  Total, average and highest expense analysis
+-  Category-wise spending visualization
+-  Subscription detection
+-  AI-generated financial insights
+-  Next month expense prediction
+-  Interactive charts for expense analysis
+-  Clean and responsive user interface
 
 ---
 
-## 🛠 Tech Stack
+# Tech Stack
 
 ### Frontend
 - React.js
@@ -53,121 +43,69 @@ An AI-powered personal finance dashboard that analyzes bank statement CSV files,
 - FastAPI
 - Python
 - Pandas
-- Scikit-learn
 
-### Tools
-- Git
-- GitHub
+### Machine Learning
+- Scikit-learn
+- Predictive Expense Analysis
+
+### Deployment
 - Vercel
 - Render
 
----
-
-## 📁 Project Structure
-
-```
-AI-Expense-Analyzer
-│
-├── backend/          # FastAPI backend
-├── frontend/         # React frontend
-├── images/           # README screenshots
-├── ml_data/          # Sample ML data
-├── src/              # Analysis modules
-├── README.md
-└── .gitignore
-```
+### Version Control
+- Git
+- GitHub
 
 ---
 
-## ⚙️ Installation
+# 🤖 Machine Learning Used
 
-### Clone Repository
-
-```bash
-git clone https://github.com/priya250805/AI-Expense-Analyzer.git
-```
-
-### Backend
-
-```bash
-cd backend
-
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-pip install -r requirements.txt
-
-python -m uvicorn main:app --reload
-```
-
-Backend runs on:
-
-```
-http://127.0.0.1:8000
-```
+The project includes a predictive analytics module that estimates the user's next month's expenses based on their current spending pattern. Although the current implementation uses a simple prediction strategy for demonstration purposes, the architecture is designed to be easily extended with machine learning models such as Linear Regression, Random Forest, or XGBoost using historical multi-month transaction data.
 
 ---
 
-### Frontend
 
-```bash
-cd frontend
+# 📂 Sample Dataset
 
-npm install
+You can test the application using the sample bank statement provided below.
 
-npm run dev
-```
+📄 **Sample CSV**
 
-Frontend runs on:
-
-```
-http://localhost:5173
-```
+> *([Download Sample Bank Statement](data/bank_statement.csv))*
 
 ---
 
-## 📂 Sample Dataset
+# Future Improvements
 
-Upload any bank statement CSV following this format:
-
-| Date | Merchant | Category | Amount | Transaction Type |
-|------|----------|----------|--------|------------------|
-| 2025-03-01 | Zomato | Food | 450 | Debit |
-
----
-
-## 📈 AI Insights Generated
-
-The application provides:
-
-- Largest transaction detection
-- Top spending category
-- Subscription summary
-- Savings recommendations
-- Monthly spending prediction
-
----
-
-## 🔮 Future Improvements
-
-- Multi-month spending trends
-- OCR support for PDF bank statements
-- Budget goal tracking
-- User authentication
+- Support PDF bank statement uploads using OCR
+- Multi-month expense trend analysis
+- Budget planning and savings goals
+- User authentication and cloud storage
+- Advanced ML models for expense forecasting
 - Personalized financial recommendations using LLMs
 
 ---
 
-## 👩‍💻 Author
+# 📸 Screenshots
 
-**Priya Wandhekar**
+## Home Page
 
-GitHub: https://github.com/priya250805
+![Home](images/upload.png)
 
 ---
 
-## ⭐ Support
+## Expense Dashboard
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+![Dashboard](images/expensedashboard.png)
+
+---
+
+## Expense Analysis
+
+![Charts](images/category.png)
+
+---
+
+## AI Insights
+
+![Insights](images/ai-insights.png)

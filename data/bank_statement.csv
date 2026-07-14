@@ -1,11 +1,88 @@
-Date,Merchant,Amount
-2026-07-01,Swiggy,450
-2026-07-01,Uber,230
-2026-07-02,Amazon,1500
-2026-07-02,Netflix,649
-2026-07-03,Starbucks,320
-2026-07-04,Big Bazaar,2100
-2026-07-05,Spotify,119
-2026-07-06,Zomato,680
-2026-07-06,Uber,190
-2026-07-07,Amazon,2300
+Date,Merchant,Description,Category,Amount,Payment Mode,Transaction Type,Is Subscription
+2025-03-01,ABC Technologies,Salary Credit,Salary,85000,Bank Transfer,Credit,No
+2025-03-01,BookMyShow,Entertainment Expense,Entertainment,859,Net Banking,Debit,No
+2025-03-01,Swiggy,Food Expense,Food,636,Card,Debit,No
+2025-03-01,Airtel,Bills Expense,Bills,747,Net Banking,Debit,No
+2025-03-02,McDonald's,Food Expense,Food,483,UPI,Debit,No
+2025-03-02,BookMyShow,Entertainment Expense,Entertainment,218,Card,Debit,No
+2025-03-02,BookMyShow,Entertainment Expense,Entertainment,700,UPI,Debit,No
+2025-03-03,House Rent,Monthly Rent,Rent,15000,Bank Transfer,Debit,No
+2025-03-03,Uber,Transport Expense,Transport,828,UPI,Debit,No
+2025-03-03,Indian Oil,Transport Expense,Transport,189,Net Banking,Debit,No
+2025-03-03,Ola,Transport Expense,Transport,224,Card,Debit,No
+2025-03-04,Airtel,Bills Expense,Bills,213,Net Banking,Debit,No
+2025-03-04,Starbucks,Food Expense,Food,578,Card,Debit,No
+2025-03-04,McDonald's,Food Expense,Food,870,Card,Debit,No
+2025-03-04,MSEB,Bills Expense,Bills,-7254,UPI,Debit,No
+2025-03-05,Indian Oil,Transport Expense,Transport,739,Card,Debit,No
+2025-03-06,HDFC Bank,Home Loan EMI,EMI,8000,Auto Debit,Debit,No
+2025-03-06,Indian Oil,Transport Expense,Transport,436,Card,Debit,No
+2025-03-06,Zomato,Food Expense,Food,424,Card,Debit,No
+2025-03-06,Amazon,Shopping Expense,Shopping,462,Net Banking,Debit,No
+2025-03-07,Myntra,Shopping Expense,Shopping,794,Net Banking,Debit,No
+2025-03-07,Ola,Transport Expense,Transport,600,Net Banking,Debit,No
+2025-03-07,MSEB,Bills Expense,Bills,171,Net Banking,Debit,No
+2025-03-07,BookMyShow,Entertainment Expense,Entertainment,303,Card,Debit,No
+2025-03-07,MSEB,Bills Expense,Bills,460,Net Banking,Debit,No
+2025-03-08,Zomato,Food Expense,Food,160,UPI,Debit,No
+2025-03-08,Indian Oil,Transport Expense,Transport,775,Card,Debit,No
+2025-03-08,Airtel,Bills Expense,Bills,441,UPI,Debit,No
+2025-03-08,Ola,Transport Expense,Transport,760,UPI,Debit,No
+2025-03-08,Starbucks,Food Expense,Food,529,UPI,Debit,No
+2025-03-08,Swiggy,Food Expense,Food,696,Card,Debit,No
+2025-03-08,BookMyShow,Entertainment Expense,Entertainment,234,UPI,Debit,No
+2025-03-08,MSEB,Bills Expense,Bills,610,UPI,Debit,No
+2025-03-09,BookMyShow,Entertainment Expense,Entertainment,578,UPI,Debit,No
+2025-03-09,BookMyShow,Entertainment Expense,Entertainment,427,Card,Debit,No
+2025-03-09,JioFiber,Subscription,Subscription,999,Card,Debit,Yes
+2025-03-09,MSEB,Bills Expense,Bills,285,UPI,Debit,No
+2025-03-09,Myntra,Shopping Expense,Shopping,798,UPI,Debit,No
+2025-03-10,Netflix,Subscription,Subscription,649,Card,Debit,Yes
+2025-03-11,Spotify,Subscription,Subscription,119,Card,Debit,Yes
+2025-03-12,Apollo Pharmacy,Healthcare Expense,Healthcare,300,UPI,Debit,No
+2025-03-12,ChatGPT,Subscription,Subscription,2000,Card,Debit,Yes
+2025-03-13,Airtel,Bills Expense,Bills,645,Net Banking,Debit,No
+2025-03-13,Zomato,Food Expense,Food,422,UPI,Debit,No
+2025-03-14,Flipkart,Shopping Expense,Shopping,497,Net Banking,Debit,No
+2025-03-14,MSEB,Bills Expense,Bills,702,Card,Debit,No
+2025-03-15,Flipkart,Shopping Expense,Shopping,307,Net Banking,Debit,No
+2025-03-15,Indian Oil,Transport Expense,Transport,518,Card,Debit,No
+2025-03-16,Apollo Pharmacy,Healthcare Expense,Healthcare,554,UPI,Debit,No
+2025-03-17,Starbucks,Food Expense,Food,178,UPI,Debit,No
+2025-03-17,Swiggy,Food Expense,Food,418,Net Banking,Debit,No
+2025-03-17,Zomato,Food Expense,Food,389,Card,Debit,No
+2025-03-17,Zomato,Food Expense,Food,781,Net Banking,Debit,No
+2025-03-19,Starbucks,Food Expense,Food,610,UPI,Debit,No
+2025-03-19,Amazon,Shopping Expense,Shopping,414,UPI,Debit,No
+2025-03-20,Ola,Transport Expense,Transport,491,UPI,Debit,No
+2025-03-20,Zomato,Food Expense,Food,753,Net Banking,Debit,No
+2025-03-20,Apollo Pharmacy,Healthcare Expense,Healthcare,131,UPI,Debit,No
+2025-03-20,Starbucks,Food Expense,Food,584,Card,Debit,No
+2025-03-20,Myntra,Shopping Expense,Shopping,179,Net Banking,Debit,No
+2025-03-21,Airtel,Bills Expense,Bills,147,Net Banking,Debit,No
+2025-03-21,MSEB,Bills Expense,Bills,746,Card,Debit,No
+2025-03-21,BookMyShow,Entertainment Expense,Entertainment,388,Card,Debit,No
+2025-03-22,BookMyShow,Entertainment Expense,Entertainment,140,UPI,Debit,No
+2025-03-22,BookMyShow,Entertainment Expense,Entertainment,375,Net Banking,Debit,No
+2025-03-22,MSEB,Bills Expense,Bills,89,Net Banking,Debit,No
+2025-03-22,MSEB,Bills Expense,Bills,399,Card,Debit,No
+2025-03-23,Airtel,Bills Expense,Bills,371,Card,Debit,No
+2025-03-24,Indian Oil,Transport Expense,Transport,463,Net Banking,Debit,No
+2025-03-24,Uber,Transport Expense,Transport,279,UPI,Debit,No
+2025-03-24,Uber,Transport Expense,Transport,163,Card,Debit,No
+2025-03-24,Amazon,Shopping Expense,Shopping,232,Net Banking,Debit,No
+2025-03-24,BookMyShow,Entertainment Expense,Entertainment,110,Card,Debit,No
+2025-03-25,Apollo Pharmacy,Healthcare Expense,Healthcare,82,UPI,Debit,No
+2025-03-25,Airtel,Bills Expense,Bills,864,UPI,Debit,No
+2025-03-25,Apollo Pharmacy,Healthcare Expense,Healthcare,208,UPI,Debit,No
+2025-03-25,BookMyShow,Entertainment Expense,Entertainment,817,UPI,Debit,No
+2025-03-26,Swiggy,Food Expense,Food,310,Net Banking,Debit,No
+2025-03-26,Swiggy,Food Expense,Food,120,Card,Debit,No
+2025-03-27,Apollo Pharmacy,Healthcare Expense,Healthcare,516,Net Banking,Debit,No
+2025-03-28,Amazon,Shopping Expense,Shopping,418,UPI,Debit,No
+2025-03-28,Ola,Transport Expense,Transport,857,Net Banking,Debit,No
+2025-03-28,MSEB,Bills Expense,Bills,390,Card,Debit,No
+2025-03-29,Ola,Transport Expense,Transport,174,UPI,Debit,No
+2025-03-29,MSEB,Bills Expense,Bills,724,Net Banking,Debit,No
+2025-03-31,Apollo Pharmacy,Healthcare Expense,Healthcare,226,UPI,Debit,No
+2025-03-31,Indian Oil,Transport Expense,Transport,779,Net Banking,Debit,No
