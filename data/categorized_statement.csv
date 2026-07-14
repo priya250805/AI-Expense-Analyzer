@@ -1,0 +1,11 @@
+Date,Merchant,Amount,Category
+2026-07-01,Swiggy,450,Food
+2026-07-01,Uber,230,Travel
+2026-07-02,Amazon,1500,Shopping
+2026-07-02,Netflix,649,Subscription
+2026-07-03,Starbucks,320,Food
+2026-07-04,Big Bazaar,2100,Others
+2026-07-05,Spotify,119,Subscription
+2026-07-06,Zomato,680,Food
+2026-07-06,Uber,190,Travel
+2026-07-07,Amazon,2300,Shopping
